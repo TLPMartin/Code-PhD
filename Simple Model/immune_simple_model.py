@@ -1676,54 +1676,9 @@ def main_Treg_proliferation_rate_table(out_dir,s_tag):
 ####-- Main
 
 # main_test()
-Ag_Fin = []
-Ag_Sat = []
-Ag_eval = ['0.1', '1.00']
-Ag_eval = ['0.25', '0.5', '0.75', '1.', '1.25', '1.5', '1.75', '2.']
-#Treg_eval = ['0.01', '0.02', '0.5', '0.1','0.2','0.5','1.','2.', '5.', '10.', '20.', '50.', '100.']
-Treg_eval = ['1.', '1.2', '1.4', '1.6', '1.8', '2.', '2.2', '2.4', '2.6', '2.8', '3.']
+
 main_Treg_proliferation_rate_test()
-main_Treg_proliferation_rate_table('Treg_p_rate_test_a06/','a06_')
+main_Treg_proliferation_rate_table('Results/','a06_')
 
-# plt.plot(Treg_eval, Ag_Sat, color = 'steelblue')
-# plt.xlabel('Coef Treg')
-# plt.ylabel('Time to saturate Ag')
-# #plt.xscale('log')
-# plt.title('Time to saturate according to Treg')
-# plt.savefig('Corr_AgTime_Treg.png', dpi = 300)
-# plt.close()
-
-# plt.plot(Treg_eval, Ag_Fin, color = 'steelblue')
-# plt.xlabel('Coef Treg')
-# plt.ylabel('Time to saturate Ag')
-# #plt.xscale('log')
-# plt.title('Time to saturate according to Treg')
-# plt.savefig('Corr_AgFin_Treg.png', dpi = 300)
-# plt.close()
-
-
-# fig = plt.figure(figsize=(10, 10),dpi=300)
-# gs = GridSpec(1,1,figure=fig)
-# ax_fig = fig.add_subplot(gs[0])
-# ax_fig.tick_params(axis='x',which='both',top=True,bottom=True,labelbottom=True,labeltop=False,direction='in',width=0.5,length=1.5)
-# ax_fig.tick_params(axis='y',which='both',left=True,right=True,labelleft=True,labelright=False,direction='in',width=0.5,length=1.5)
-# ax_fig.plot(Ag_eval, Ag_Fin,linestyle='solid',linewidth=2.0)
-# ax_fig.set_xlabel('Coeff for Ag_load')
-# ax_fig.set_ylabel('Value stable')
-# #plt.xscale('log')
-# plt.savefig('Corr_Agload_AgValue.tiff',format='tiff',dpi=300,bbox_inches='tight')
-# plt.close()
-
-# fig = plt.figure(figsize=(10, 10),dpi=300)
-# gs = GridSpec(1,1,figure=fig)
-# ax_fig = fig.add_subplot(gs[0])
-# ax_fig.tick_params(axis='x',which='both',top=True,bottom=True,labelbottom=True,labeltop=False,direction='in',width=0.5,length=1.5)
-# ax_fig.tick_params(axis='y',which='both',left=True,right=True,labelleft=True,labelright=False,direction='in',width=0.5,length=1.5)
-# ax_fig.plot(Ag_eval, Ag_Sat,linestyle='solid',linewidth=2.0)
-# ax_fig.set_xlabel('Coeff for Ag load')
-# ax_fig.set_ylabel('Time to stable')
-# #plt.xscale('log')
-# plt.savefig('Corr_Agload_AgTime.tiff',format='tiff',dpi=300,bbox_inches='tight')
-# plt.close()
 
 ###END
