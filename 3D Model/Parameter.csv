@@ -1,0 +1,373 @@
+Parameter,Value,Value Litt,Range,List,Integer,Type,Unit,Description,Source
+Lambda_Mon_CCL2,30,0.272727273,TRUE,FALSE,FALSE,Arrival,10^3cells/pg,Inlux of Monocytes in the Lamina Propria due to the consumption of CCL2,Knobloch1985
+Lambda_ImDC,5,7.7,TRUE,FALSE,FALSE,Arrival,10^3cells/mm^3.d,Inlux of Immature Dendritic Cells in the Lamina Propria,Knobloch1985
+Lambda_Mon_K,0.2,<<<0.27272727273,TRUE,FALSE,FALSE,Arrival,10^3cells/mm^3.d,Inlux of Monocytes in the Lamina Propria ,Knobloch1985
+Lambda_nTc,0.006,0.006,TRUE,FALSE,FALSE,Arrival,10^3cells/mm^3.d,Inlux of naive T cells in the MLN,DeBoer2013
+barXi_DC_fTH17,0.9,2.78,TRUE,FALSE,FALSE,Binding,1/d,Unbiding rate of fTH17 from DC,Obst2015
+barXi_DC_fTreg,0.9,2.78,TRUE,FALSE,FALSE,Binding,1/d,Unbiding rate of fTreg from DC,Obst2015
+xi_nTc_DC_0,458,4.586*e^4,TRUE,FALSE,FALSE,Binding,1/d,Binding rate of nTc to DC (Numerator in Hill equation),"Stein2015, Stone2009, Labrecque2001"
+xi_TH17_DC_0,458.6,4.586*e^4,TRUE,FALSE,FALSE,Binding,1/d,Binding rate of TH17 to DC (Numerator in Hill equation),"Stein2015, Labrecque2001"
+xi_Treg_DC_0,458.6,4.586*e^4,TRUE,FALSE,FALSE,Binding,1/d,Binding rate of Treg to DC (Numerator in Hill equation),"Stein2015, Labrecque2001"
+xi_Mac_Ag,500,0,TRUE,FALSE,FALSE,Binding,1/d,Binding rate of antigen to Macrophages (Numerator in Hill equation),
+xi_Epi_Ag,500,0,TRUE,FALSE,FALSE,Binding,1/d,Binding rate of antigen to Epi (Numerator in Hill equation),
+xi_sEpi_Ag,500,0,TRUE,FALSE,FALSE,Binding,1/d,Binding rate of antigen to stem Epi (Numerator in Hill equation),
+K_nTc,160,1.6*10^7,TRUE,FALSE,FALSE,Binding Bis,1/d,Binding rate of nTc to DC (Denominator in Hill equation),"Stone2009, Labrecque2001"
+K_TH17,560,1.6*10^7,TRUE,FALSE,FALSE,Binding Bis,1/d,Binding rate of TH17 to DC (Denominator in Hill equation),"Stone2009, Labrecque2001"
+K_Treg,560,1.6*10^7,TRUE,FALSE,FALSE,Binding Bis,1/d,Binding rate of Treg to DC (Denominator in Hill equation),"Stone2009, Labrecque2001"
+Gamma_CCL2_Mon,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of CCL2 by Monocytes (Numerator in Hill equation),Knobloch1985
+Gamma_CCL25_sTH17,0.3,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of CCL25 by stabilized TH17 (Numerator in Hill equation),Knobloch1985
+Gamma_CCL25_sTreg,0.3,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of CCL25 by stabilized Treg (Numerator in Hill equation),Knobloch1985
+Gamma_CCL25_TH17,0.3,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of CCL25 by TH17 (Numerator in Hill equation),Knobloch1985
+Gamma_CCL25_Treg,0.3,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of CCL2 by Treg (Numerator in Hill equation),Knobloch1985
+Gamma_Csf2_eDC,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of Csf2 by effector DC (Numerator in Hill equation),Knobloch1985
+Gamma_Csf2_tDC,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of Csf2 by tolerogenic DC (Numerator in Hill equation),Knobloch1985
+Gamma_eRA_fTH17,0.01,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of Retinoic acid bound to effector DC by fixed TH17 (Numerator in Hill equation),Knobloch1985
+Gamma_eRA_fTreg,0.01,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of Retinoic acid bound to effector DC by fixed Treg (Numerator in Hill equation),Knobloch1985
+Gamma_eRA_nTe,0.01,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of Retinoic acid bound to effector DC by naive T cell bound to effector DC (Numerator in Hill equation),Knobloch1985
+Gamma_IL10_eDC,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL10 by effector DC (Numerator in Hill equation),Knobloch1985
+Gamma_IL10_fTH17,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL10 by fixed TH17 (Numerator in Hill equation),Knobloch1985
+Gamma_IL10_fTreg,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL10 by fixed Treg (Numerator in Hill equation),Knobloch1985
+Gamma_IL10_Mac,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL10 by Macrophages (Numerator in Hill equation),Knobloch1985
+Gamma_IL10_mTH17,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL10 by moving TH17 (Numerator in Hill equation),Knobloch1985
+Gamma_IL10_mTreg,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL10 by moving Treg (Numerator in Hill equation),Knobloch1985
+Gamma_IL10_sTH17,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL10 by stabilized TH17 (Numerator in Hill equation),Knobloch1985
+Gamma_IL10_sTreg,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL10 by stabilized Treg (Numerator in Hill equation),Knobloch1985
+Gamma_IL10_TH17,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL10 by TH17 (Numerator in Hill equation),Knobloch1985
+Gamma_IL10_Treg,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL10 by Treg (Numerator in Hill equation),Knobloch1985
+Gamma_IL10_tTreg,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL10 by thymic Treg (Numerator in Hill equation),Knobloch1985
+Gamma_IL1Beta_23_ILC3,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL1Beta-23 by ILC3 (Numerator in Hill equation),Knobloch1985
+Gamma_IL1Beta_23_TH17,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL1Beta-23 by TH17 (Numerator in Hill equation),Knobloch1985
+Gamma_IL1Beta_23_Treg,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL1Beta-23 by Treg (Numerator in Hill equation),Knobloch1985
+Gamma_IL2_fTreg,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL2 by fixed Treg (Numerator in Hill equation),Knobloch1985
+Gamma_IL2_mTreg,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL2 by moving Treg (Numerator in Hill equation),Knobloch1985
+Gamma_IL2_nTe,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL2 by naive T cell bound to effector DC (Numerator in Hill equation),Knobloch1985
+Gamma_IL2_nTt,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL2 by naive T cell bound to tolerogenic DC (Numerator in Hill equation),Knobloch1985
+Gamma_IL2_sTreg,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL2 by stabilized Treg (Numerator in Hill equation),Knobloch1985
+Gamma_IL2_Treg,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL2 by Treg (Numerator in Hill equation),Knobloch1985
+Gamma_IL2_tTreg,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL2 by thymic Treg (Numerator in Hill equation),Knobloch1985
+Gamma_IL21_fTH17,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL21 by fixed TH17 (Numerator in Hill equation),Knobloch1985
+Gamma_IL21_nTe,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL21 by naive T cell bound to effector DC (Numerator in Hill equation),Knobloch1985
+Gamma_IL21_nTt,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL21 by naive T cell bound to tolerogenic DC (Numerator in Hill equation),Knobloch1985
+Gamma_IL6_nTe,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL6 by naive T cell bound to effector DC (Numerator in Hill equation),Knobloch1985
+Gamma_IL6_nTt,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of IL6 by naive T cell bound to tolerogenic DC (Numerator in Hill equation),Knobloch1985
+Gamma_SAA_Mac,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of SAA by Macrophages (Numerator in Hill equation),Knobloch1985
+Gamma_SAA_sTH17,5.5,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of SAA by stabilized TH17 (Numerator in Hill equation),Knobloch1985
+Gamma_SAA_TH17,5.5,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of CCL2 by TH17 (Numerator in Hill equation),Knobloch1985
+Gamma_TGFBeta_Mon,1.249968255,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of TGF-Beta by Monocytes (Numerator in Hill equation),Knobloch1985
+Gamma_TGFBeta_nTe,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of TGF-Beta by naive T cell bound to effector DC (Numerator in Hill equation),Knobloch1985
+Gamma_TGFBeta_nTt,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of TGF-Beta by naive T cell bound to tolerogenic DC (Numerator in Hill equation),Knobloch1985
+Gamma_TGFBeta_TH17,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of TGF-Beta by TH17 (Numerator in Hill equation),Knobloch1985
+Gamma_TGFBeta_Treg,2.49993651,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of TGF-Beta by Treg (Numerator in Hill equation),Knobloch1985
+Gamma_tRA_fTH17,0.01,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of Retinoic acid bound to tolerogenic DC by fixed TH17 (Numerator in Hill equation),Knobloch1985
+Gamma_tRA_fTreg,0.01,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of Retinoic acid bound to tolerogenic DC by fixed Treg (Numerator in Hill equation),Knobloch1985
+Gamma_tRA_nTt,0.01,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d,Consumption of Retinoic acid bound to tolerogenic DC by naive T cell bound to tolerogenic DC (Numerator in Hill equation),Knobloch1985
+Gamma_IL10_Epi,0.096325355,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d.mm,Consumption of IL10 by Epithelial cell (Numerator in Hill equation),Knobloch1985
+Gamma_IL10_sEpi,0.096325355,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d.mm,Consumption of IL10 by stem Epithelial cell (Numerator in Hill equation),Knobloch1985
+Gamma_IL17_Epi,1,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d.mm,Consumption of IL17 by Epithelial cell (Numerator in Hill equation),Knobloch1985
+Gamma_IL17_sEpi,0.96325355,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d.mm,Consumption of IL17 by stem Epithelial cell (Numerator in Hill equation),Knobloch1985
+Gamma_IL22_Epi,1,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d.mm,Consumption of IL22 by Epithelial cell (Numerator in Hill equation),Knobloch1985
+Gamma_IL22_sEpi,0.96325355,1.76,TRUE,FALSE,FALSE,Consumption,pg/10^3cells.d.mm,Consumption of IL22 by stem Epithelial cell (Numerator in Hill equation),Knobloch1985
+Gamma_eRA_TH17,0.1408,0.1408,TRUE,FALSE,FALSE,Consumption,pg.mm^3/(10^3cells)^2.d,Consumption of retinoic acid bound to effector DC by TH17 (Numerator in Hill equation),Knobloch1985
+Gamma_eRA_Treg,0.1408,0.1408,TRUE,FALSE,FALSE,Consumption,pg.mm^3/(10^3cells)^2.d,Consumption of retinoic acid bound to effector DC by Treg (Numerator in Hill equation),Knobloch1985
+Gamma_tRA_TH17,0.1408,0.1408,TRUE,FALSE,FALSE,Consumption,pg.mm^3/(10^3cells)^2.d,Consumption of retinoic acid bound to tolerogenic DC by TH17 (Numerator in Hill equation),Knobloch1985
+Gamma_tRA_Treg,0.1408,0.1408,TRUE,FALSE,FALSE,Consumption,pg.mm^3/(10^3cells)^2.d,Consumption of retinoic acid bound to tolerogenic DC by Treg (Numerator in Hill equation),Knobloch1985
+Gamma_eRA_Epi_TH17,0.1408,0.1408,TRUE,FALSE,FALSE,Consumption,pg.mm^3/(10^3cells)^2.d,Consumption of retinoic acid bound to Epithelial cell by TH17 (Numerator in Hill equation),Knobloch1985
+Gamma_eRA_sEpi_TH17,0.1408,0.1408,TRUE,FALSE,FALSE,Consumption,pg.mm^3/(10^3cells)^2.d,Consumption of retinoic acid bound to stem Epithelial cell by TH17 (Numerator in Hill equation),Knobloch1985
+Gamma_tRA_Epi_TH17,0.1408,0.1408,TRUE,FALSE,FALSE,Consumption,pg.mm^3/(10^3cells)^2.d,Consumption of retinoic acid bound to Epithelial cell by TH17 (Numerator in Hill equation),Knobloch1985
+Gamma_tRA_sEpi_TH17,0.1408,0.1408,TRUE,FALSE,FALSE,Consumption,pg.mm^3/(10^3cells)^2.d,Consumption of retinoic acid bound to stem Epithelial cell by TH17 (Numerator in Hill equation),Knobloch1985
+Gamma_eRA_Epi_Treg,0.1408,0.1408,TRUE,FALSE,FALSE,Consumption,pg.mm^3/(10^3cells)^2.d,Consumption of retinoic acid bound to Epithelial cell by Treg (Numerator in Hill equation),Knobloch1985
+Gamma_eRA_sEpi_Treg,0.1408,0.1408,TRUE,FALSE,FALSE,Consumption,pg.mm^3/(10^3cells)^2.d,Consumption of retinoic acid bound to stem Epithelial cell by Treg (Numerator in Hill equation),Knobloch1985
+Gamma_tRA_Epi_Treg,0.1408,0.1408,TRUE,FALSE,FALSE,Consumption,pg.mm^3/(10^3cells)^2.d,Consumption of retinoic acid bound to Epithelial cell by Treg (Numerator in Hill equation),Knobloch1985
+Gamma_tRA_sEpi_Treg,0.1408,0.1408,TRUE,FALSE,FALSE,Consumption,pg.mm^3/(10^3cells)^2.d,Consumption of retinoic acid bound to stem Epithelial cell by Treg (Numerator in Hill equation),Knobloch1985
+K_eRA_fTH17,1.00E+00,16.8,TRUE,FALSE,FALSE,Consumption Bis,pg/10^3cells,Consumption of Retinoic acid bound to effector DC by fixed TH17 (Denominator in Hill equation),Hammacher1996
+K_eRA_fTreg,1.00E+00,16.8,TRUE,FALSE,FALSE,Consumption Bis,pg/10^3cells,Consumption of Retinoic acid bound to effector DC by fixed Treg (Denominator in Hill equation),Hammacher1996
+K_eRA_nTe,1.60E+00,16.8,TRUE,FALSE,FALSE,Consumption Bis,pg/10^3cells,Consumption of Retinoic acid bound to effector DC by naive T cell bound to effector DC (Denominator in Hill equation),Hammacher1996
+K_eRA_TH17,215,16.8,TRUE,FALSE,FALSE,Consumption Bis,pg/10^3cells,Consumption of Retinoic acid bound to effector DC by TH17 (Denominator in Hill equation),Hammacher1996
+K_eRA_Treg,215,16.8,TRUE,FALSE,FALSE,Consumption Bis,pg/10^3cells,Consumption of Retinoic acid bound to effector DC by Treg (Denominator in Hill equation),Hammacher1996
+K_tRA_fTH17,1.00E+00,16.8,TRUE,FALSE,FALSE,Consumption Bis,pg/10^3cells,Consumption of Retinoic acid bound to tolerogenic DC by fixed TH17 (Denominator in Hill equation),Hammacher1996
+K_tRA_fTreg,1.00E+00,16.8,TRUE,FALSE,FALSE,Consumption Bis,pg/10^3cells,Consumption of Retinoic acid bound to tolerogenic DC by fixed Treg (Denominator in Hill equation),Hammacher1996
+K_tRA_nTt,1.60E+00,16.8,TRUE,FALSE,FALSE,Consumption Bis,pg/10^3cells,Consumption of Retinoic acid bound to tolerogenic DC by naive T cell bound to effector DC (Denominator in Hill equation),Hammacher1996
+K_tRA_TH17,215,16.8,TRUE,FALSE,FALSE,Consumption Bis,pg/10^3cells,Consumption of Retinoic acid bound to tolerogenic DC by TH17 (Denominator in Hill equation),Hammacher1996
+K_tRA_Treg,215,16.8,TRUE,FALSE,FALSE,Consumption Bis,pg/10^3cells,Consumption of Retinoic acid bound to tolerogenic DC by Treg (Denominator in Hill equation),Hammacher1996
+K_eRA_Epi_TH17,215.449136,16.8,TRUE,FALSE,FALSE,Consumption Bis,pg/10^3cells,Consumption of retinoic acid bound to Epithelial cell by TH17 (Denominator in Hill equation),Hammacher1996
+K_eRA_sEpi_TH17,215.449136,16.8,TRUE,FALSE,FALSE,Consumption Bis,pg/10^3cells,Consumption of retinoic acid bound to stem Epithelial cell by TH17 (Denominator in Hill equation),Hammacher1996
+K_tRA_Epi_TH17,215.449136,16.8,TRUE,FALSE,FALSE,Consumption Bis,pg/10^3cells,Consumption of retinoic acid bound to Epithelial cell by TH17 (Denominator in Hill equation),Hammacher1996
+K_tRA_sEpi_TH17,215.449136,16.8,TRUE,FALSE,FALSE,Consumption Bis,pg/10^3cells,Consumption of retinoic acid bound to stem Epithelial cell by TH17 (Denominator in Hill equation),Hammacher1996
+K_eRA_Epi_Treg,215.449136,16.8,TRUE,FALSE,FALSE,Consumption Bis,pg/10^3cells,Consumption of retinoic acid bound to Epithelial cell by Treg (Denominator in Hill equation),Hammacher1996
+K_eRA_sEpi_Treg,215.449136,16.8,TRUE,FALSE,FALSE,Consumption Bis,pg/10^3cells,Consumption of retinoic acid bound to stem Epithelial cell by Treg (Denominator in Hill equation),Hammacher1996
+K_tRA_Epi_Treg,215.449136,16.8,TRUE,FALSE,FALSE,Consumption Bis,pg/10^3cells,Consumption of retinoic acid bound to Epithelial cell by Treg (Denominator in Hill equation),Hammacher1996
+K_tRA_sEpi_Treg,215.449136,16.8,TRUE,FALSE,FALSE,Consumption Bis,pg/10^3cells,Consumption of retinoic acid bound to stem Epithelial cell by Treg (Denominator in Hill equation),Hammacher1996
+K_CCL2_Mon,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of CCL2 by Monocytes (Denominator in Hill equation),Hammacher1996
+K_CCL25_sTH17,3,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of CCL25 by stabilized TH17 (Denominator in Hill equation),Hammacher1996
+K_CCL25_sTreg,3,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of CCL25 by stabilized Treg (Denominator in Hill equation),Hammacher1996
+K_CCL25_TH17,3,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of CCL25 by TH17 (Denominator in Hill equation),Hammacher1996
+K_CCL25_Treg,3,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of CCL2 by Treg (Denominator in Hill equation),Hammacher1996
+K_Csf2_eDC,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of Csf2 by effector DC (Denominator in Hill equation),Hammacher1996
+K_Csf2_tDC,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of Csf2 by tolerogenic DC (Denominator in Hill equation),Hammacher1996
+K_IL10_eDC,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL10 by effector DC (Denominator in Hill equation),Hammacher1996
+K_IL10_Epi,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL10 by Epithelial cell (Denominator in Hill equation),Hammacher1996
+K_IL17_Epi,21,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL17 by Epithelial cell (Denominator in Hill equation),Hammacher1996
+K_IL17_sEpi,21,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL17 by stem Epithelial cell (Denominator in Hill equation),Hammacher1996
+K_IL10_fTH17,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL10 by fixed TH17 (Denominator in Hill equation),Hammacher1996
+K_IL10_fTreg,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL10 by fixed Treg (Denominator in Hill equation),Hammacher1996
+K_IL10_Mac,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL10 by Macrophages (Denominator in Hill equation),Hammacher1996
+K_IL10_mTH17,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL10 by moving TH17 (Denominator in Hill equation),Hammacher1996
+K_IL10_mTreg,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL10 by moving Treg (Denominator in Hill equation),Hammacher1996
+K_IL10_sEpi,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL10 by stem Epithelial cell (Denominator in Hill equation),Hammacher1996
+K_IL10_sTH17,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL10 by stabilize TH17 (Denominator in Hill equation),Hammacher1996
+K_IL10_sTreg,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL10 by stabilized Treg (Denominator in Hill equation),Hammacher1996
+K_IL10_TH17,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL10 by TH17 (Denominator in Hill equation),Hammacher1996
+K_IL10_Treg,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL10 by Treg (Denominator in Hill equation),Hammacher1996
+K_IL10_tTreg,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL10 by thymic Treg (Denominator in Hill equation),Hammacher1996
+K_IL1Beta_23_ILC3,10,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL1Beta-23 by ILC3 (Denominator in Hill equation),Hammacher1996
+K_IL1Beta_23_TH17,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL1Beta-23 by TH17 (Denominator in Hill equation),Hammacher1996
+K_IL1Beta_23_Treg,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL1Beta-23 by Treg (Denominator in Hill equation),Hammacher1996
+K_IL2_fTreg,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL2 by fixed Treg (Denominator in Hill equation),Hammacher1996
+K_IL2_mTreg,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL2 by moving Treg (Denominator in Hill equation),Hammacher1996
+K_IL2_nTe,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL2 by naive T cell bound to effector DC (Denominator in Hill equation),Hammacher1996
+K_IL2_nTt,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL2 by naive T cell bound to tolerogenic DC (Denominator in Hill equation),Hammacher1996
+K_IL2_sTreg,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL2 by stabilized Treg (Denominator in Hill equation),Hammacher1996
+K_IL2_Treg,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL2 by Treg (Denominator in Hill equation),Hammacher1996
+K_IL2_tTreg,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL2 by thymic Treg (Denominator in Hill equation),Hammacher1996
+K_IL21_fTH17,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL21 by fixed TH17 (Denominator in Hill equation),Hammacher1996
+K_IL21_nTe,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL21 by naive T cell bound to effector DC (Denominator in Hill equation),Hammacher1996
+K_IL21_nTt,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL21 by naive T cell bound to tolerogenic DC (Denominator in Hill equation),Hammacher1996
+K_IL22_Epi,21,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL22 by Epithelial cell (Denominator in Hill Equation),Hammacher1996
+K_IL22_sEpi,21,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL22 by stem Epithelial cell (Denominator in Hill Equation),Hammacher1996
+K_IL6_nTe,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL6 by naive T cell bound to effector DC (Denominator in Hill equation),Hammacher1996
+K_IL6_nTt,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of IL6 by naive T cell bound to tolerogenic DC (Denominator in Hill equation),Hammacher1996
+K_SAA_Mac,10,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of SAA by Macrophages (Denominator in Hill Equation),Hammacher1996
+K_SAA_sTH17,30,210,TRUE,FALSE,FALSE,Consumption,pg/mm^3,Consumption of SAA by stabilized TH17 (Denominator in Hill Equation),Hammacher1996
+K_SAA_TH17,30,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of SAA by TH17 (Denominator in Hill Equation),Hammacher1996
+K_TGFBeta_Epi,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of TGF-Beta by Epithelial cell (Denominator in Hill Equation),Hammacher1996
+K_TGFBeta_Mon,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of TGF-Beta by Monocytes (Denominator in Hill Equation),Hammacher1996
+K_TGFBeta_nTe,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of TGF-Beta by naive T cell bound to effector DC (Denominator in Hill Equation),Hammacher1996
+K_TGFBeta_nTt,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of TGF-Beta by naive T cell bound to tolerogenic DC (Denominator in Hill Equation),Hammacher1996
+K_TGFBeta_sEpi,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of TGF-Beta by stem Epithelial cell (Denominator in Hill Equation),Hammacher1996
+K_TGFBeta_TH17,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of TGF-Beta by TH17 (Denominator in Hill Equation),Hammacher1996
+K_TGFBeta_Treg,210,210,TRUE,FALSE,FALSE,Consumption Bis,pg/mm^3,Consumption of TGF-Beta by Treg (Denominator in Hill Equation),Hammacher1996
+K_Ag_Epi,50000,0,TRUE,FALSE,FALSE,Binding Bis,pg/mm^3,Binding rate of antigen to Epithelial cell (Denominator in Hill equation),
+K_Ag_Mac,500000,0,TRUE,FALSE,FALSE,Binding Bis,pg/mm^3,Binding rate of antigen to Macrophages (Denominator in Hill equation),
+K_Ag_sEpi,50000,0,TRUE,FALSE,FALSE,Binding Bis,pg/mm^3,Binding rate of antigen to stem Epithelial cell (Denominator in Hill equation),
+K_Pi_Epi_SAA_Ag,200,0,TRUE,FALSE,FALSE,Production Binding Bis,pg/mm^3,Production of SAA by Epi due to free eAg in the lumen (Denominator in Hill equation),
+K_Pi_sEpi_SAA_Ag,200,0,TRUE,FALSE,FALSE,Production Binding Bis,pg/mm^3,Production of SAA by sEpi due to free eAg in the lumen (Denominator in Hill equation),
+mu_ImDC,0.116438992,1.04-1.99.e^-1,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of Immature Dendritic cell,Kameth2000
+mu_DC_LP,0.1,1.04-1.99.e^-1,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of DC in the LP,Kameth2000
+mu_DC_T,0.1,1.04-1.99.e^-1,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of DC during journey from LP to MLN,Kameth2000
+mu_DC_MLN,0.1,1.04-1.99.e^-1,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of DC in the MLN,Kameth2000
+mu_eAg_Mac,0.5,~0.5,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of effector antigens bound to Macrophages,Grant1995
+mu_tAg_Mac,0.5,~0.5,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of tolerogenic antigens bound to Macrophages,Grant1995
+mu_eAg_sEpi,12,~0.5,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of effector antigens bound to stem Epithelial cells,Grant1995
+mu_tAg_sEpi,12,~0.5,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of tolerogenic antigens bound to stem Epithelial cells,Grant1995
+mu_eAg_Epi,12,~0.5,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of effector antigens bound to Epithelial cells,Grant1995
+mu_tAg_Epi,12,~0.5,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of tolerogenic antigens bound to Epithelial cells,Grant1995
+mu_Epi_0,0.001,0.357,TRUE,FALSE,FALSE,Death rate,1/d,Basic death rate of Epithelial cells,Itzkovitz2012
+mu_sEpi_0,0.001,0.357,TRUE,FALSE,FALSE,Death rate,1/d,Basic death rate of stem Epithelial cells,Itzkovitz2012
+mu_mic,0.0001,0.9,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of Epithelial cell due to microbes in the lumen,Verma2019
+mu_Ejec,1.16E-06,<0.357,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of Epithelial cell due to ejection from the Epithelial layer,Itzkovitz2012
+mu_nTc,0.006,0.006,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of naive T cell,DeBoer2013
+mu_nTe,0.006,0.006,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of naive T cell bound to effector DC,DeBoer2013
+mu_nTt,0.006,0.006,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of naive T cell bound to tolerogenic DC,DeBoer2013
+mu_fTH17,0.05,0.0057/0.59,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of fixed TH17,Ribeiro2002
+mu_fTreg,0.05,0.0057/0.59,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of fixed Treg,Ribeiro2002
+mu_mTH17,0.05,0.0057/0.59,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of moving TH17,Ribeiro2002
+mu_mTH17_T,0.05,0.0057/0.59,TRUE,FALSE,FALSE,Death rate,1/d,Death rate  of moving TH17 during the journey from MLN to LP,Ribeiro2002
+mu_mTreg,0.05,0.0057/0.59,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of moving Treg,Ribeiro2002
+mu_mTreg_T,0.05,0.0057/0.59,TRUE,FALSE,FALSE,Death rate,1/d,Death rate  of moving Treg during the journey from MLN to LP,Ribeiro2002
+mu_sTH17_LP,0.055,0.0057/0.59,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of stabilized TH17 in the LP,Ribeiro2002
+mu_sTreg_LP,0.08,0.0057/0.59,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of stabilized Treg in the LP,Ribeiro2002
+mu_TH17,0.05,0.0057/0.59,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of TH17 in the MLN,Ribeiro2002
+mu_TH17_LP,0.05,0.0057/0.59,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of TH17 in the LP,Ribeiro2002
+mu_Treg,0.05,0.0057/0.59,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of Treg in the MLN,Ribeiro2002
+mu_Treg_LP,0.05,0.0057/0.59,TRUE,FALSE,FALSE,Death rate,1/d,death rate of Treg in the LP,Ribeiro2002
+mu_Mac,0.0714,7.14-10.71e^-3,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of Macrophages,Ginhoux2016
+mu_Mon,0.06,6.00e^-2,TRUE,FALSE,FALSE,Death rate,1/d,Death rate of Monocytes,Ginhoux2014
+c_delta_CCL2,0.6,0.1-0.24,TRUE,FALSE,FALSE,Degradation,1/d,Degradation rate of CCL2,Aziz2016/Karunadharma2015
+c_delta_CCL25,0.6,0.1-0.24,TRUE,FALSE,FALSE,Degradation,1/d,Degradation rate of CCL25,Aziz2016/Karunadharma2015
+c_delta_Csf2,0.6,0.1-0.24,TRUE,FALSE,FALSE,Degradation,1/d,Degradation rate of Csf2,Aziz2016/Karunadharma2015
+c_delta_IL10,3,5.5,TRUE,FALSE,FALSE,Degradation,1/d,Degradation rate of IL10 in the LP,Aziz2016/Karunadharma2015
+c_delta_IL10_MLN,0.6,0.1-0.24,TRUE,FALSE,FALSE,Degradation,1/d,Degradation rate of IL10 in the MLN,Aziz2016/Karunadharma2015
+c_delta_IL17,0.6,0.1-0.24,TRUE,FALSE,FALSE,Degradation,1/d,Degradation rate of IL17,Aziz2016/Karunadharma2015
+c_delta_IL1Beta_23,0.349316976,0.1-0.24,TRUE,FALSE,FALSE,Degradation,1/d,Degradation rate of IL1Beta-23,Aziz2016/Karunadharma2015
+c_delta_IL2,0.6,0.1-0.24,TRUE,FALSE,FALSE,Degradation,1/d,Degradation rate of IL2,Aziz2016/Karunadharma2015
+c_delta_IL21,0.6,0.1-0.24,TRUE,FALSE,FALSE,Degradation,1/d,Degradation rate of IL21,Aziz2016/Karunadharma2015
+c_delta_IL22,0.29109748,0.1-0.24,TRUE,FALSE,FALSE,Degradation,1/d,Degradation rate of IL22,Aziz2016/Karunadharma2015
+c_delta_IL6,0.6,0.1-0.24,TRUE,FALSE,FALSE,Degradation,1/d,Degradation rate of IL6,Aziz2016/Karunadharma2015
+c_delta_SAA,0.6,0.1-0.24,TRUE,FALSE,FALSE,Degradation,1/d,Degradation rate of SAA,Aziz2016/Karunadharma2015
+c_delta_TGFBeta,0.6,0.1-0.24,TRUE,FALSE,FALSE,Degradation,1/d,Degradation rate of TGF-Beta,Aziz2016/Karunadharma2015
+c_delta_RA,0.5,4.753,TRUE,FALSE,FALSE,Degradation,1/d,Degradation rate of retinoic acid,Aziz2016/Karunadharma2015
+c_delta_MLN_eRA,0.5,4.753,TRUE,FALSE,FALSE,Degradation,1/d,Degradation rate of retinoic acid bound to effector DC in the MLN,Williams1985
+c_delta_MLN_tRA,0.5,4.753,TRUE,FALSE,FALSE,Degradation,1/d,Degradation rate of retinoic acid bound to tolerogenic DC in the MLN,Williams1985
+phi_TH17_Treg_TGFBeta,0.5,0.176136364,TRUE,FALSE,FALSE,Differentiation,10^3cells/pg,Differentiation of TH17 into Treg due to TGFBeta,Gagliani2015/Knobloch1985
+phi_TH17_Treg_RA,0.01,0.176136364,TRUE,FALSE,FALSE,Differentiation,10^3cells/pg,Differentiation of TH17 into Treg due to Retinoic acid bound to DC,Gagliani2015/Knobloch1985
+phi_TH17_Treg_RA_Epi,0.01,0.176136364,TRUE,FALSE,FALSE,Differentiation,10^3cells/pg,Differentiation of TH17 into Treg due to Retinoic acid bound to Epithelial cell,Gagliani2015/Knobloch1985
+phi_TH17_Treg_RA_sEpi,0.01,0.176136364,TRUE,FALSE,FALSE,Differentiation,10^3cells/pg,Differentiation of TH17 into Treg due to Retinoic acid bound to stem Epithelial cell,Gagliani2015/Knobloch1985
+phi_TH17_sTH17_IL1Beta_23,24,0.024431818,TRUE,FALSE,FALSE,Differentiation,10^3cells/pg,Differentiation of TH17 into stabilized TH17 due to IL1Beta-23,Perez2020/Knobloch1985
+phi_Treg_TH17,0.176136364,0.176136364,TRUE,FALSE,FALSE,Differentiation,10^3cells/pg,Basic Differentiation of Treg into TH17,Gagliani2015/Knobloch1985
+phi_Treg_sTreg_TGFBeta,0.02443182,0.024431818,TRUE,FALSE,FALSE,Differentiation,10^3cells/pg,Differentiation of Treg into stabilized Treg due to TGF-Beta,Gagliani2015/Knobloch1985
+phi_Treg_sTreg_RA,0.02443182,0.024431818,TRUE,FALSE,FALSE,Differentiation,10^3cells/pg,Differentiation of Treg into stabilized Treg due to Retinoic acid bound to DC,Perez2020/Knobloch1985
+phi_Treg_sTreg_RA_Epi,0.02443182,0.024417944,TRUE,FALSE,FALSE,Differentiation,10^3cells/pg,Differentiation of Treg into stabilized Treg due to Retinoic acid bound to Epithelial cell,Perez2020/Knobloch1985
+phi_Treg_sTreg_RA_sEpi,0.02443182,0.024417944,TRUE,FALSE,FALSE,Differentiation,10^3cells/pg,Differentiation of Treg into stabilized Treg due to Retinoic acid bound to stem Epithelial cell,Perez2020/Knobloch1985
+phi_Mon_Mac,5.5062891,0.272727273,TRUE,FALSE,FALSE,Differentiation,10^3cells/pg,Differentiaion of Monocyte into Macrophage,Knobloch1985
+phi_nTe_Treg_0,5850.62891,1,TRUE,FALSE,FALSE,Differentiation,10^3cells/pg,Basic Differentiation of naive T cell bound to effector DC into Treg,
+phi_nTt_Treg_0,5850.62891,1,TRUE,FALSE,FALSE,Differentiation,10^3cells/pg,Basic Differentiation of naive T cell bound to tolerogenic DC into Treg,
+phi_nTe_TH17_IL6,5850.62891,1,TRUE,FALSE,FALSE,Differentiation,10^3cells/pg,Differentiation of naive T cell bound to effector DC into TH17 due to IL6,
+phi_nTt_TH17_IL6,5850.62891,1,TRUE,FALSE,FALSE,Differentiation,10^3cells/pg,Differentiation of naive T cell bound to tolerogenic DC into TH17 due to IL6,
+phi_nTe_TH17_IL21,5850.62891,1,TRUE,FALSE,FALSE,Differentiation,10^3cells/pg,Differentiation of naive T cell bound to effector DC into TH17 due to IL21,
+phi_nTt_TH17_IL21,5850.62891,1,TRUE,FALSE,FALSE,Differentiation,10^3cells/pg,Differentiation of naive T cell bound to tolerogenic DC into TH17 due to IL21,
+phi_Tcell,150,1.579545455,TRUE,FALSE,FALSE,Differentiation,10^3cells/pg,Basic Differentiation of naive T cell into mature T cell,Knobloch1985/Obst2015
+phi_ImDC_eDC_Ag_Epi,0.001,0.0032,TRUE,FALSE,FALSE,Differentiation,mm^2/10^3cells.d,Differentiation of Immature DC into effector DC after contact with effector antigen bound to Epithelial cell,Knobloch1985
+phi_ImDC_eDC_Ag_Mac,0.0000001,1.16E-05,TRUE,FALSE,FALSE,Differentiation,mm^3/10^3cells.d,Differentiation of Immature DC into effector DC after contact with effector antigen bound to Macrophage,Knobloch1985
+phi_ImDC_eDC_Ag_sEpi,0.001,0.0032,TRUE,FALSE,FALSE,Differentiation,mm^2/10^3cells.d,Differentiation of Immature DC into effector DC after contact with effector antigen bound to stem Epithelial cell,Knobloch1985
+phi_ImDC_tDC_Ag_Epi,0.001,0.0032,TRUE,FALSE,FALSE,Differentiation,mm^2/10^3cells.d,Differentiation of Immature DC into tolerogenic DC after contact with tolerogenic antigen bound to Epithelial cell,Knobloch1985
+phi_ImDC_tDC_Ag_Mac,0.0000001,1.16E-05,TRUE,FALSE,FALSE,Differentiation,mm^3/10^3cells.d,Differentiation of Immature DC into tolerogenic DC after contact with tolerogenic antigen bound to Macrophage,Knobloch1985
+phi_ImDC_tDC_Ag_sEpi,0.001,0.0032,TRUE,FALSE,FALSE,Differentiation,mm^2/10^3cells.d,Differentiation of Immature DC into tolerogenic DC after contact with tolerogenic antigen bound to stem Epithelial cell,Knobloch1985
+phi_ImDC_eDC_Ag,0.0001,0.0032,TRUE,FALSE,FALSE,Differentiation,mm^3/pg.d,Differentiation of Immature DC into effector DC after contact with free effector antigen,Knobloch1985
+phi_ImDC_tDC_Ag,0.0001,0.0032,TRUE,FALSE,FALSE,Differentiation,mm^3/pg.d,Differentiation of Immature DC into tolerogenic DC after contact with free tolerogenic antigen,Knobloch1985
+d_CCL2_LP,38,38,TRUE,FALSE,FALSE,Diffusion,1/d,Diffusion of CCL2 in the LP,Yung2010/Thurley2015
+d_CCL25_LP,38,38,TRUE,FALSE,FALSE,Diffusion,1/d,Diffusion of CCL25 in the LP,Yung2010/Thurley2015
+d_Csf2_LP,52.8729477,38,TRUE,FALSE,FALSE,Diffusion,1/d,Diffusion of Csf2 in the LP,Yung2010/Thurley2015
+d_IL10_LP,52.8729477,38,TRUE,FALSE,FALSE,Diffusion,1/d,Diffusion of IL10 in the LP,Yung2010/Thurley2015
+d_IL10_MLN,52.8729477,38,TRUE,FALSE,FALSE,Diffusion,1/d,Diffusion of IL10 in the MLN,Yung2010/Thurley2015
+d_IL17_LP,52.8729477,38,TRUE,FALSE,FALSE,Diffusion,1/d,Diffusion of IL17 in the LP,Yung2010/Thurley2015
+d_IL1Beta_23_LP,52.8729477,38,TRUE,FALSE,FALSE,Diffusion,1/d,Diffusion of IL1Beta-23 in the LP,Yung2010/Thurley2015
+d_IL2_LP,52.8729477,38,TRUE,FALSE,FALSE,Diffusion,1/d,Diffusion of IL2 in the LP,Yung2010/Thurley2015
+d_IL2_MLN,52.8729477,38,TRUE,FALSE,FALSE,Diffusion,1/d,Diffusion of IL2 in the MLN,Yung2010/Thurley2015
+d_IL21_MLN,52.8729477,38,TRUE,FALSE,FALSE,Diffusion,1/d,Diffusion of IL21 in the MLN,Yung2010/Thurley2015
+d_IL22_LP,52.8729477,38,TRUE,FALSE,FALSE,Diffusion,1/d,Diffusion of IL22 in the LP,Yung2010/Thurley2015
+d_IL6_MLN,52.8729477,38,TRUE,FALSE,FALSE,Diffusion,1/d,Diffusion of IL6 in the MLN,Yung2010/Thurley2015
+d_SAA_LP,52.8729477,38,TRUE,FALSE,FALSE,Diffusion,1/d,Diffusion of SAA in the LP,Yung2010/Thurley2015
+d_TGFBeta_LP,5.28729477,38,TRUE,FALSE,FALSE,Diffusion,1/d,Diffusion of TGFBeta in the LP,Yung2010/Thurley2015
+d_TGFBeta_MLN,5.28729477,38,TRUE,FALSE,FALSE,Diffusion,1/d,Diffusion of TGFBeta in the MLN,Yung2010/Thurley2015
+k_neDC_IL10,2,2.272727273,TRUE,FALSE,FALSE,Impact,10^3cells.d/pg,Negative impact of IL10 on the number of available antigen site on effector DC,Knobloch1985
+k_sEpi_IL10,0.01,0.01,TRUE,FALSE,FALSE,Impact,10^3cells.d/pg,Negative impact of IL10 on the stem Epithelial cell differentiation,
+k_sEpi_IL17,0.01,0.01,TRUE,FALSE,FALSE,Impact,10^3cells.d/pg,Positive impact of IL17 on the stem Epithelial cell differentiation,
+k_sEpi_IL22,500000,0.01,TRUE,FALSE,FALSE,Impact,10^3cells.d/pg,Positive impact of IL22 on the stem Epithelial cell proliferation,
+k_IL2_musTreg,5,5.113636364,TRUE,FALSE,FALSE,Impact,10^3cells.d/pg,Negative impact of IL2 on the death rate of stabilized Treg,Knobloch1985
+k_IL2_muTreg,5,5.113636364,TRUE,FALSE,FALSE,Impact,10^3cells.d/pg,Negative impact of IL2 on the death rate of Treg,Knobloch1985
+k_Pi_auto_IL10,0.81818182,56.81818182,TRUE,FALSE,FALSE,Impact,10^3cells.d/pg,Positive impact of IL10 on IL10 production by all types of Treg,Le1997
+k_Pi_IL17_SAA_sTH17,20000,56.25,TRUE,FALSE,FALSE,Impact,10^3cells.d/pg,Positive impact of SAA on IL17 production by stabilized TH17,
+k_Pi_IL17_SAA_TH17,20000,56.25,TRUE,FALSE,FALSE,Impact,10^3cells.d/pg,Positive impact of SAA on IL17 production by TH17,
+k_Pi_IL17_IL10_sTH17,5000,5.113636364,TRUE,FALSE,FALSE,Impact,10^3cells.d/pg,Negative impact of IL10 on IL17 production by stabilized TH17,Knobloch1985
+k_Pi_IL17_IL10_TH17,5000,56.25,TRUE,FALSE,FALSE,Impact,10^3cells.d/pg,Negative impact of IL10 on IL17 production by TH17,Knobloch1985
+k_Pi_IL1Beta_23_IL10_Mac,56.25,56.25,TRUE,FALSE,FALSE,Impact,10^3cells.d/pg,Negative impact of IL10 on IL1Beta-23 production by Macrophage,Knobloch1985
+k_Pi_IL1Beta_23_SAA_Mac,5.113636364,5.113636364,TRUE,FALSE,FALSE,Impact,10^3cells.d/pg,Positive impact of SAA on IL1Beta-23 production by Macrophage,Knobloch1985
+k_Pi_IL6_IL10_eDC,56.25,56.25,TRUE,FALSE,FALSE,Impact,10^3cells.d/pg,Negative impact of IL10 on IL6 production by effector DC,Knobloch1985
+k_nMac_IL10,28.717787,283.5227273,TRUE,FALSE,FALSE,Impact,10^3cells.d/pg,Negative impact of IL10 on the number of available antigen site on Macrophage,Knobloch1985
+k_IL22_SAA_Epi,10000,1000,TRUE,FALSE,FALSE,Impact,10^3cells.d/pg,Positive impact of IL22 on the production of SAA by Epithelial cell,
+k_IL22_SAA_sEpi,10000,1000,TRUE,FALSE,FALSE,Impact,10^3cells.d/pg,Positive impact of IL22 on the production of SAA by stem Epithelial cell,
+k_IL17_22_Mic,1000000,#N/A,TRUE,FALSE,FALSE,Impact,10^3cells.d/pg,Negative impact of IL22 and IL17 on the load of antigens in the lumen ,
+L_CCL2_ves,15,38,TRUE,FALSE,FALSE,Leak,1/d,Leak of CCL2 into blood and lymphatic vessels,Yung2010/Thurley2015
+L_CCL25_ves,15,38,TRUE,FALSE,FALSE,Leak,1/d,Leak of CCL25 into blood and lymphatic vessels,Yung2010/Thurley2015
+L_Epi_Ag,50,#N/A,TRUE,FALSE,FALSE,Leak,1/d,Leak of lumen antigens into the LP,Yung2010/Thurley2015
+m,1,#N/A,FALSE,FALSE,TRUE,Model Setting,s.u.,Exponent of the denominator in the Hill equation for cinsumption of soluble mediators,
+D_max_LP,125,125,FALSE,FALSE,FALSE,Model Setting,10^3cells/mm^3,Maximum density in the LP,
+D_max_MLN,125,125,FALSE,FALSE,FALSE,Model Setting,10^3cells/mm^3,Maximum density in the MLN,
+D_max_Epi,10,10,FALSE,FALSE,FALSE,Model Setting,10^3cells/mm^2,Maximum density in the Epithelial layer (on one surface of a cube),Moon2014
+a,"[0.6,1.0, 0, 0, 0, 0, 0, 0, 0, 0]",0-1,FALSE,TRUE,FALSE,Model Setting,proba,Probability of triggering inflammatory immune response of each chemical group of antigens,
+Crypt_portion,0.07,#N/A,TRUE,FALSE,FALSE,Model Setting,s.u.,Ratio of one surface of a cube avaible for crypt cell,Boll1995
+Paneth_Portion,0.3,#N/A,TRUE,FALSE,FALSE,Model Setting,s.u.,Ratio of full mature Epithelial crypt cells occupied by paneth cells,Nakamura2020
+tTreg_density_LP,0.08,#N/A,TRUE,FALSE,FALSE,Model Setting,10^3cells/mm^3,Density of thymic Treg in the LP,Chen2013/Ferrer2020/Fu2019/Geem2016
+tTreg_density_MLN,0.2,#N/A,TRUE,FALSE,FALSE,Model Setting,10^3cells/mm^3,Density of thymic Treg in the MLN,Chen2013/Ferrer2020/Fu2019/Weiss2012
+ILC3_in_LP,3,#N/A,TRUE,FALSE,FALSE,Model Setting,10^3cells/mm^3,Density of ILC3 in the LP,Ferrer2020/Fu2019
+IEL_fraction_max,0.11,#N/A,TRUE,FALSE,FALSE,Model Setting,s.u.,Maximum Portion of full epithelial cell occupy by Intra Epithelial Lymphocyte ,Hayat2002
+IEL_fraction_min,0.06,#N/A,TRUE,FALSE,FALSE,Model Setting,s.u.,Minimum Portion of full epithelial cell occupy by Intra Epithelial Lymphocyte ,Hayat2002
+IEL_fraction,0.085,#N/A,TRUE,FALSE,FALSE,Model Setting,s.u.,Mean Portion of full epithelial cell occupy by Intra Epithelial Lymphocyte ,Hayat2002
+Stromal_cells,62.004,#N/A,TRUE,FALSE,FALSE,Model Setting,10^3cells/mm^3,Density of Stramal cells,McCarthy2020/Sumigray2019
+tau_Mic,1,#N/A,TRUE,FALSE,FALSE,Model Setting,d,Time parameter in the computation of impact of IL22 and IL17 on microbial load,
+h,1,#N/A,TRUE,FALSE,FALSE,Model Setting,s.u.,Exponent of the denominator in the computation of impact of IL17 and IL22 on microbial load,
+M_Mon_chem,0.56,0.568181818,TRUE,FALSE,FALSE,Movement,1/d,Movement of Monocytes due to chemokine gradient in the LP,Knobloch1985
+M_TH17_chem,2,0.568181818,TRUE,FALSE,FALSE,Movement,1/d,Movement of TH17 due to chemokine gradient in the LP,Knobloch1985
+M_Treg_chem,2,0.568181818,TRUE,FALSE,FALSE,Movement,1/d,Movement of Treg due to chemokine gradient in the LP,Knobloch1985
+M_sTH17_chem,2,0.568181818,TRUE,FALSE,FALSE,Movement,1/d,Movement of stabilized TH17 due to chemokine gradient in the LP,Knobloch1985
+M_sTreg_chem,2,0.568181818,TRUE,FALSE,FALSE,Movement,1/d,Movement of stabilized Treg due to chemokine gradient in the LP,Knobloch1985
+M_inLP_mTH17,5,1.659090909,TRUE,FALSE,FALSE,Movement,1/d,Incoming rate of TH17 from waiting TH17 into LP,Knobloch1985
+M_inLP_mTreg,5,1.659090909,TRUE,FALSE,FALSE,Movement,1/d,Incoming rate of Treg from waiting Treg into LP,Knobloch1985
+M_DC_MLN,1,<1.46,TRUE,FALSE,FALSE,Movement,1/d,Movement of Dendritic cell in the MLN,Stein2015
+M_eDC_LP,1,<1.46,TRUE,FALSE,FALSE,Movement,1/d,Movement of effector DC in the LP,Stein2015
+M_Epi,5,1.14,TRUE,FALSE,FALSE,Movement,1/d,Movement of Epithelial cell,Bilota2021
+M_ImDC_LP,1,<1.46,TRUE,FALSE,FALSE,Movement,1/d,Movement of Immature DC in the LP,Stein2015
+M_inMLN_eDC,5,<1.46,TRUE,FALSE,FALSE,Movement,1/d,Incoming rate of effector DC from waiting DC into MLN,Stein2015
+M_inMLN_tDC,5,<1.46,TRUE,FALSE,FALSE,Movement,1/d,Incoming rate of tolerogenic DC from waiting DC into MLN,Stein2015
+M_Mac_LP,1,<1.46,TRUE,FALSE,FALSE,Movement,1/d,Movement of Mac in the LP,Stein2015
+M_Mon_LP_0,0.566872585,1.46,TRUE,FALSE,FALSE,Movement,1/d,Movement of effector Mononocyte in the LP not due to chemokine,Stein2015
+M_mTH17_MLN,0.8,1.46,TRUE,FALSE,FALSE,Movement,1/d,Movement of moving TH17 in the MLN,Stein2015
+M_mTreg_MLN,0.8,1.46,TRUE,FALSE,FALSE,Movement,1/d,Movement of moving Treg in the MLN,Stein2015
+M_nTc_MLN,1,<1.46,TRUE,FALSE,FALSE,Movement,1/d,Movement of naive T cell in the MLN,Stein2015
+M_outLP_eDC,50,<1.46,TRUE,FALSE,FALSE,Movement,1/d,Outcoming rate of effector DC from the LP,Stein2015
+M_outLP_tDC,50,<1.46,TRUE,FALSE,FALSE,Movement,1/d,Outcoming rate of tolerogenic DC from the LP,Stein2015
+M_outMLN_mTH17,100,1.46,TRUE,FALSE,FALSE,Movement,1/d,Outcoming rate of moving TH17 from the MLN,Stein2015
+M_outMLN_mTreg,100,1.46,TRUE,FALSE,FALSE,Movement,1/d,Outcoming rate of moving Treg from the MLN,Stein2015
+M_sTH17_LP_0,0.5,1.46,TRUE,FALSE,FALSE,Movement,1/d,Movement of stabilized TH17 in the LP not due to chemokine,Stein2015
+M_sTreg_LP_0,0.5,1.46,TRUE,FALSE,FALSE,Movement,1/d,Movement of stabilized Treg in the LP not due to chemokine,Stein2015
+M_tDC_LP,0.566872585,<1.46,TRUE,FALSE,FALSE,Movement,1/d,Movement of tolerogenic DC in the LP,Stein2015
+M_TH17_LP_0,0.05,1.46,TRUE,FALSE,FALSE,Movement,1/d,Movement of TH17 in the LP not due to chemokine,Stein2015
+M_TH17_MLN,0.566872585,<1.46,TRUE,FALSE,FALSE,Movement,1/d,Movement of TH17 in the MLN,Stein2015
+M_Treg_LP_0,0.05,1.46,TRUE,FALSE,FALSE,Movement,1/d,Movement of Treg in the LP not due to chemokine,Stein2015
+M_Treg_MLN,0.566872585,<1.46,TRUE,FALSE,FALSE,Movement,1/d,Movement of Treg in The MLN,Stein2015
+k_RA_phi,0.9,1,TRUE,FALSE,FALSE,No,10^3cells.d/pg,Impact of Retinoic Acid on the differentiation of naive T cell into Treg,
+n_DC,75,50-100,TRUE,FALSE,FALSE,Number of sites,#,Number of available site for antigen on DC,Shin2006
+n_Mac_0,5000,3300-7300,TRUE,FALSE,FALSE,Number of sites,#,Number of available site for antigen on Macrophage,Baumgart1998
+p_0,0.99,#N/A,TRUE,FALSE,FALSE,Probability,None,Basic probality for stem Epithelial cell to differentiate into Epithelial cell during a division,Itzkovitz2012
+Pi_CCL2_Mac,1.249968255,0.88,TRUE,FALSE,FALSE,Production,pg/10^3cells.d,Production of CCL2 by Macrophage,Knobloch1985
+Pi_IL10_fTreg,0.0778055,0.0176,TRUE,FALSE,FALSE,Production,pg/10^3cells.d,Prodution of IL10 by fixed Treg,Chaundry2011
+Pi_IL10_Mac,0.00749981,0.0176,TRUE,FALSE,FALSE,Production,pg/10^3cells.d,Production of IL10 by Macrophage,Chaundry2011
+Pi_IL10_mTreg,0.007780552,0.0176,TRUE,FALSE,FALSE,Production,pg/10^3cells.d,Production of IL10 by moving Treg,Chaundry2011
+Pi_IL10_sTreg,4,0.0176,TRUE,FALSE,FALSE,Production,pg/10^3cells.d,Production of IL10 by stabilized Treg,Chaundry2011
+Pi_IL10_Treg,0.02,0.0176,TRUE,FALSE,FALSE,Production,pg/10^3cells.d,Production of IL10 by Treg,Chaundry2011
+Pi_IL10_tTreg,0.018233662,0.0176,TRUE,FALSE,FALSE,Production,pg/10^3cells.d,Production of IL10 by thymic Treg,Chaundry2011
+Pi_IL17_sTH17,0.5,>1.76,TRUE,FALSE,FALSE,Production,pg/10^3cells.d,Production of IL17 by stabilized TH17,Knobloch1985
+Pi_IL17_TH17,0.0125,1.76,TRUE,FALSE,FALSE,Production,pg/10^3cells.d,Production of IL17 by TH17,Knobloch1985
+Pi_IL1Beta_23_Mac,0.02,2.64,TRUE,FALSE,FALSE,Production,pg/10^3cells.d,Production of IL1Beta-23 by Macrophage,Knobloch1985
+Pi_IL21_fTH17,1.249968255,1.76,TRUE,FALSE,FALSE,Production,pg/10^3cells.d,Production of IL21 by fixed TH17,Kuribayashi2018/Donohue1983
+Pi_IL21_mTH17,1.249968255,1.76,TRUE,FALSE,FALSE,Production,pg/10^3cells.d,Production of IL21 by moving TH17,Kuribayashi2018/Donohue1983
+Pi_IL21_TH17,0.249993651,1.76,TRUE,FALSE,FALSE,Production,pg/10^3cells.d,Production of IL21 by TH17,Kuribayashi2018/Donohue1983
+Pi_IL22_sTH17,5,1.76,TRUE,FALSE,FALSE,Production,pg/10^3cells.d,Production of IL22 by stabilized TH17,Knobloch1985
+Pi_TGFBeta_Mac,0.001,1.76,TRUE,FALSE,FALSE,Production,pg/10^3cells.d,Production of TGF-Beta by Macrophage,Knobloch1985
+Pi_TGFBeta_Stro,0.000610334,1.173333333,TRUE,FALSE,FALSE,Production,pg/10^3cells.d,Production of TGF-Beta by Stromal cell,Knobloch1985
+Pi_CCL25_Epi,0.481626773,22,TRUE,FALSE,FALSE,Production,pg/10^3cells.d.mm,Production of CCL25 by Epithelial cell,Knobloch1985
+Pi_CCL25_sEpi,0.4,22,TRUE,FALSE,FALSE,Production,pg/10^3cells.d.mm,Production of CCL25 by stem Epithelial cell,Knobloch1985
+Pi_TGFBeta_Epi,1.76,1.76,TRUE,FALSE,FALSE,Production,pg/10^3cells.d.mm,Production of TGF-Beta by Epithelial cell,Knobloch1985
+Pi_Csf2_ILC3,0.014084643,1,TRUE,FALSE,FALSE,Production,s.u.,Production of Csf-2 by ILC3,Knobloch1985
+Pi_IL2_ILC3,0.014084643,1,TRUE,FALSE,FALSE,Production,s.u.,Production of IL2 by ILC3,Knobloch1985
+Pi_IL22_ILC3,100,1,TRUE,FALSE,FALSE,Production,s.u.,Production of IL22 by ILC3,Knobloch1985
+Pi_SAA_Epi_Cons,0.000140846,1,TRUE,FALSE,FALSE,Production,s.u.,Production of SAA by Epithelial cell,
+Pi_SAA_sEpi_Cons,0.000140846,1,TRUE,FALSE,FALSE,Production,s.u.,Production of SAA by stem Epithelial cell,
+Pi_SAA_Ag_Epi,"[100, 1, 1, 1, 1, 1, 1, 1, 1, 1]",1,TRUE,TRUE,FALSE,Production,s.u.,Production of SAA by Epithelial cell due to free eAg in the lumen,
+Pi_SAA_Ag_sEpi,"[100, 1, 1, 1, 1, 1, 1, 1, 1, 1]",1,TRUE,TRUE,FALSE,Production,s.u.,Production of SAA by stem Epithelial cell due to free eAg in the lumen,
+Pi_IL10_IEL,0.434584197,1.76,TRUE,FALSE,FALSE,Production,mm/10^3cells.d,Production of IL10 by Intra Epithelial Lymphocyte,Chaundry2011
+lambda_sEpi_K,3,0.357,TRUE,FALSE,FALSE,Proliferation,1/d,Basic proliferation rate of stem Epithelial cell,Itzkovitz2012
+lambda_Epi_K,3,0.357,TRUE,FALSE,FALSE,Proliferation,1/d,Basic proliferation rate of Epithelial cell,Itzkovitz2012
+lambda_TH17_0,5.00E-02,3.217,TRUE,FALSE,FALSE,Proliferation,s.u.,Basic proliferation rate of TH17,Stone2009/Bowers2017
+lambda_Treg_0,5.00E-02,<3.217,TRUE,FALSE,FALSE,Proliferation,s.u.,Basic proliferation rate of Treg,Stone2009/Bowers2017
+lambda_sTH17_0,0.01,3.217,TRUE,FALSE,FALSE,Proliferation,s.u.,Basic proliferation rate of stabilized TH17,Stone2009/Bowers2017
+lambda_sTreg_0,0.01,<3.217,TRUE,FALSE,FALSE,Proliferation,s.u.,Basic proliferation rate of stabilized Treg,Stone2009/Bowers2017
+lambda_fTH17_0,2,135.2840909,TRUE,FALSE,FALSE,Proliferation,10^3cells/pg,Basic proliferation rate of fixed TH17,Knobloch1985/Bowers2017
+delta_DC,0.257,0.257,TRUE,FALSE,FALSE,Time delay,d,Duration of the journey of DC from LP to MLN,Stein2015/Sabine2020
+delta_mTH17,0.257,0.257,TRUE,FALSE,FALSE,Time delay,d,Duration of the journey of moving TH17 from LP to MLN,Stein2015/Sabine2020
+delta_mTreg,0.257,0.257,TRUE,FALSE,FALSE,Time delay,d,Duration of the journey of moving Treg from LP to MLN,Stein2015/Sabine2020
+xi_TH17_DC,"[0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1, 0.1]",0.02-6.4,TRUE,TRUE,FALSE,Binding,mm^3/10^3cells.d,"Affinity rate of TH17 receptor with antigen on DC (list of size N_chemical +1, can change for all antigen group)",Stone2009
+xi_nTc_DC,"[1,1,1,1,1,1,1,1,1,1]",0.02-6.4,TRUE,TRUE,FALSE,Binding,mm^3/10^3cells.d,"Affinity rate of nTc receptor with antigen on DC (list of size N_chemical +1, can change for all antigen group)",Stone2009
+xi_TH17_Epi,"[0.706,0.706,0.706,0.706,0.706,0.706,0.706,0.706,0.706, 0.706]",0.00007629,TRUE,TRUE,FALSE,Binding,mm^2/10^3cells.d,"Affinity rate of TH17 receptor with antigen on Epi (list of size N_chemical +1, can change for all antigen group)",Stone2009
+xi_TH17_Mac,"[0.001,0.001,0.001,0.001,0.001,0.001,0.001,0.001,0.001, 0.001]",0.00007629,TRUE,TRUE,FALSE,Binding,mm^3/10^3cells.d,"Affinity rate of TH17 receptor with antigen on Macrophages (list of size N_chemical +1, can change for all antigen group)",Stone2009
+xi_TH17_sEpi,"[0.706,0.706,0.706,0.706,0.706,0.706,0.706,0.706,0.706, 0.706]",0.00007629,TRUE,TRUE,FALSE,Binding,mm^2/10^3cells.d,"Affinity rate of TH17 receptor with antigen on stem Epi (list of size N_chemical +1, can change for all antigen group)",Stone2009
+xi_Treg_DC,"[0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1, 0.1]",0.02-6.4,TRUE,TRUE,FALSE,Binding,mm^3/10^3cells.d,"Affinity rate of Treg receptor with antigen on DC (list of size N_chemical +1, can change for all antigen group)",Stone2009
+xi_Treg_Epi,"[0.706,0.706,0.706,0.706,0.706,0.706,0.706,0.706,0.706, 0.706]",0.00007629,TRUE,TRUE,FALSE,Binding,mm^2/10^3cells.d,"Affinity rate of Treg receptor with antigen on Epi (list of size N_chemical +1, can change for all antigen group)",Stone2009
+xi_Treg_Mac,"[0.001,0.001,0.001,0.001,0.001,0.001,0.001,0.001,0.001, 0.001]",0.00007629,TRUE,TRUE,FALSE,Binding,mm^3/10^3cells.d,"Affinity rate of Treg receptor with antigen on Macrophages (list of size N_chemical +1, can change for all antigen group)",Stone2009
+xi_Treg_sEpi,"[0.706,0.706,0.706,0.706,0.706,0.706,0.706,0.706,0.706, 0.706]",0.00007629,TRUE,TRUE,FALSE,Binding,mm^2/10^3cells.d,"Affinity rate of Treg receptor with antigen on stem Epi (list of size N_chemical +1, can change for all antigen group)",Stone2009
+Ag_load,"[200,200,200,200,200,200,200,200,200,200]",20000,TRUE,TRUE,FALSE,Model Setting,pg/mm^3,Abundance of Antigen in the Lumen,Brown1978
+Pi_CCL2_Mac_Ag,"[0.00013333,0.00013333,0.00013333,0.00013333,0.00013333,0.00013333,0.00013333,0.00013333,0.00013333, 0.00013333]",0.000266667,TRUE,TRUE,FALSE,Production,pg/10^3cells.d,Production of CCL2 by Macrophage due to their antigen,Knobloch1985
+Pi_IL10_Mac_Ag,"[0,0,0,0,0,0,0,0,0, 0]",0.0176,TRUE,TRUE,FALSE,Production,pg/10^3cells.d,Production of IL10 by Macrophage due to their antigen,Chaundry2011
+Pi_IL1Beta_23_Mac_Ag,"[0.00000002,0.00000002,0.00000002,0.00000002,0.00000002,0.00000002,0.00000002,0.00000002,0.00000002, 0.00000002]",0.0008,TRUE,TRUE,FALSE,Production,pg/10^3cells.d,Production of IL1Beta-23 by Macrophage due to their antigen,Knobloch1985
+Pi_IL2_eDC,"[0,0,0,0,0,0,0,0,0, 0]",5.28,TRUE,TRUE,FALSE,Production,pg/10^3cells.d,Production of IL2 by effector DC,Kuribayashi2018/Donohue1983
+Pi_IL2_tDC,"[5.28,5.28,5.28,5.28,5.28,5.28,5.28,5.28,5.28, 5.28]",5.28,TRUE,TRUE,FALSE,Production,pg/10^3cells.d,Production of IL2 by tolerogenic DC,Kuribayashi2018/Donohue1983
+Pi_IL6_eDC,"[0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5, 0.5]",3.52,TRUE,TRUE,FALSE,Production,pg/10^3cells.d,Production of IL6 by effector DC,Kuribayashi2018/Donohue1983
+Pi_TGFBeta_eDC,"[1.173333333,1.173333333,1.173333333,1.173333333,1.173333333,1.173333333,1.173333333,1.173333333,1.173333333, 1.173333333]",1.173333333,TRUE,TRUE,FALSE,Production,pg/10^3cells.d,Production of TGF-Beta by effector DC,
+Pi_TGFBeta_Mac_Ag,"[0,0,0,0,0,0,0,0,0, 0]",0.000533333,TRUE,TRUE,FALSE,Production,pg/10^3cells.d,Production of TGF-Beta by Macrophage due to their antigen,
+Pi_TGFBeta_tDC,"[1.173333333,1.173333333,1.173333333,1.173333333,1.173333333,1.173333333,1.173333333,1.173333333,1.173333333, 1.173333333]",1.173333333,TRUE,TRUE,FALSE,Production,pg/10^3cells.d,Production of TGF-Beta by tolerogenic DC,
+Pi_CCL25_Epi_Ag,"[1.2,1.2,1.2,1.2,1.2,1.2,1.2,1.2,1.2, 1.2]",0.44,TRUE,TRUE,FALSE,Production,pg/10^3cells.d.mm,Production of CCL25 by Epithelial cell due to their antigen,Knobloch1985
+Pi_CCL25_sEpi_Ag,"[1.2,1.2,1.2,1.2,1.2,1.2,1.2,1.2,1.2, 1.2]",0.44,TRUE,TRUE,FALSE,Production,pg/10^3cells.d.mm,Producetion of CCL25 by stem Epithelial cell due to their antigen,Knobloch1985
+Pi_TGFBeta_Epi_Ag,"[0.0352,0.0352,0.0352,0.0352,0.0352,0.0352,0.0352,0.0352,0.0352, 0.0352]",0.0352,TRUE,TRUE,FALSE,Production,pg/10^3cells.d.mm,Production of TGF-Beta by Epithelial cell due to their antigen,
+Pi_SAA_Epi_Ag,"[0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05, 0.05]",1,TRUE,TRUE,FALSE,Production,s.u.,Production of SAA by Epithelial cell due to their antigen,Knobloch1985
+Pi_SAA_sEpi_Ag,"[0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05, 0.05]",1,TRUE,TRUE,FALSE,Production,s.u.,Production of SAA by stem Epithelial cell due to their antigen,Knobloch1985
+n_Epi,75,1,TRUE,FALSE,FALSE,Number of sites,#,Number of available site for antigens on a Epithelial cell,Shin2006
