@@ -1,1 +1,7 @@
-
+Function to run simulations is contained in the Run.py file but it requires the two other files SetUp.py and Function.py
+The function to run simulations is Main(dt, T, SubT, N_chemical, Folder)
+dt : time step in days 
+T : final time in days
+SubT : subdivision of time step for the diffusion of molecules
+N_chemical : number of chemical group i, note N_chemical = 0 for 1 chemical group, so N_chemical = 2 represents 2 chemical groups
+Folder: Name of the folder to store graphs
