@@ -1,0 +1,52 @@
+Knobloch1985: Knobloch, C., Schlesier, M., Dräger, R., Gärtner, M., & Peter, H. H. (1985). Quantitative absorption of interleukin-2 by peripheral blood and synovial fluid lymphocytes from patients with rheumatoid arthritis. Rheumatology International, 5, 133-139.
+DeBoer2013: De Boer, R. J., & Perelson, A. S. (2013). Quantifying T lymphocyte turnover. Journal of theoretical biology, 327, 45-87.
+Obst2015: Obst, R. (2015). The timing of T cell priming and cycling. Frontiers in immunology, 6, 563.
+Stein2015: Stein, J. V. (2015). T cell motility as modulator of interactions with dendritic cells. Frontiers in immunology, 6, 559.
+Stone2009: Stone, J. D., Chervin, A. S., & Kranz, D. M. (2009). T‐cell receptor binding affinities and kinetics: impact on T‐cell activity and specificity. Immunology, 126(2), 165-176.
+Labrecque2001: Labrecque, N., Whitfield, L. S., Obst, R., Waltzinger, C., Benoist, C., & Mathis, D. (2001). How much TCR does a T cell need?. Immunity, 15(1), 71-82.
+Hammacher1996: Hammacher, A., Simpson, R. J., & Nice, E. C. (1996). The Interleukin-6 (IL-6) Partial Antagonist (Q159E, T162P) IL-6 Interacts with the IL-6 Receptor and gp130 but Fails to Induce a Stable Hexameric Receptor Complex (∗). Journal of Biological Chemistry, 271(10), 5464-5473.
+Kameth2000: Kamath, A. T., Pooley, J., O’Keeffe, M. A., Vremec, D., Zhan, Y., Lew, A. M., ... & Shortman, K. (2000). The development, maturation, and turnover rate of mouse spleen dendritic cell populations. The Journal of Immunology, 165(12), 6762-6770.
+Grant1995: Grant, E. P., Michalek, M. T., Goldberg, A. L., & Rock, K. L. (1995). Rate of antigen degradation by the ubiquitin-proteasome pathway influences MHC class I presentation. Journal of immunology (Baltimore, Md.: 1950), 155(8), 3750-3758. 
+Itzkovitz2012: Itzkovitz, S., Blat, I. C., Jacks, T., Clevers, H., & van Oudenaarden, A. (2012). Optimality in the development of intestinal crypts. Cell, 148(3), 608-619.
+Verma2019: Verma, M., Bassaganya-Riera, J., Leber, A., Tubau-Juni, N., Hoops, S., Abedi, V., ... & Hontecillas, R. (2019). High-resolution computational modeling of immune responses in the gut. GigaScience, 8(6), giz062.
+Ribeiro2002: Ribeiro, R. M., Mohri, H., Ho, D. D., & Perelson, A. S. (2002). In vivo dynamics of T cell activation, proliferation, and death in HIV-1 infection: why are CD4+ but not CD8+ T cells depleted?. Proceedings of the National Academy of Sciences, 99(24), 15572-15577.
+Ginhoux2016: Ginhoux, F., & Guilliams, M. (2016). Tissue-resident macrophage ontogeny and homeostasis. Immunity, 44(3), 439-449.
+Ginhoux2014: Ginhoux, F., & Jung, S. (2014). Monocytes and macrophages: developmental pathways and tissue homeostasis. Nature Reviews Immunology, 14(6), 392-404.
+Aziz2016: Aziz, N., Detels, R., Quint, J. J., Li, Q., Gjertson, D., & Butch, A. W. (2016). Stability of cytokines, chemokines and soluble activation markers in unprocessed blood stored under different conditions. Cytokine, 84, 17-24.
+Karunadharma2015: Karunadharma, P. P., Basisty, N., Dai, D. F., Chiao, Y. A., Quarles, E. K., Hsieh, E. J., ... & Rabinovitch, P. S. (2015). Subacute calorie restriction and rapamycin discordantly alter mouse liver proteome homeostasis and reverse aging effects. Aging cell, 14(4), 547-557.
+Williams1985: Williams, J. B., & Napoli, J. L. (1985). Metabolism of retinoic acid and retinol during differentiation of F9 embryonal carcinoma cells. Proceedings of the National Academy of Sciences, 82(14), 4658-4662.
+Gagliani2015: Gagliani, N., Vesely, M. C. A., Iseppon, A., Brockmann, L., Xu, H., Palm, N. W., ... & Flavell, R. A. (2015). Th17 cells transdifferentiate into regulatory T cells during resolution of inflammation. Nature, 523(7559), 221-225.
+Perez2020: Perez, L. G., Kempski, J., McGee, H. M., Pelzcar, P., Agalioti, T., Giannou, A., ... & Huber, S. (2020). TGF-β signaling in Th17 cells promotes IL-22 production and colitis-associated colon cancer. Nature communications, 11(1), 2608.
+Yung2010: Yung, C. W., Bentley, W. E., & Barbari, T. A. (2010). Diffusion of interleukin‐2 from cells overlaid with cytocompatible enzyme‐crosslinked gelatin hydrogels. Journal of Biomedical Materials Research Part A, 95(1), 25-32.
+Thurley2015: Thurley, K., Gerecht, D., Friedmann, E., & Höfer, T. (2015). Three-dimensional gradients of cytokine signaling between T cells. PLoS computational biology, 11(4), e1004206.
+Moon2014: Moon, C., VanDussen, K. L., Miyoshi, H., & Stappenbeck, T. S. (2014). Development of a primary mouse intestinal epithelial cell monolayer culture system to evaluate factors that modulate IgA transcytosis. Mucosal immunology, 7(4), 818-828.
+Boll1995: Boll, G., & Reimann, J. (1995). Lamina propria T cell subsets in the small and large intestine of euthymic and athymic mice. Scandinavian journal of immunology, 42(2), 191-201.
+Nakamura2020: Nakamura, K., Yokoi, Y., Fukaya, R., Ohira, S., Shinozaki, R., Nishida, T., ... & Ayabe, T. (2020). Expression and localization of Paneth cells and their α-defensins in the small intestine of adult mouse. Frontiers in Immunology, 11, 570296.
+Chen2013: Chen, Z., Ding, J., Pang, N., Du, R., Meng, W., Zhu, Y., ... & Ding, Y. (2013). The Th17/Treg balance and the expression of related cytokines in Uygur cervical cancer patients. Diagnostic pathology, 8(1), 1-11.
+Ferrer2020: Ferrer-Font, L., Mehta, P., Harmos, P., Schmidt, A. J., Chappell, S., Price, K. M., ... & Mayer, J. U. (2020). High-dimensional analysis of intestinal immune cells during helminth infection. Elife, 9, e51678.
+Fu2019: Fu, Y. Y., Egorova, A., Sobieski, C., Kuttiyara, J., Calafiore, M., Takashima, S., ... & Hanash, A. M. (2019). T cell recruitment to the intestinal stem cell compartment drives immune-mediated intestinal damage after allogeneic transplantation. Immunity, 51(1), 90-103.
+Geem2016: Geem, D., Ngo, V., Harusato, A., Chassaing, B., Gewirtz, A. T., Newberry, R. D., & Denning, T. L. (2016). Contribution of mesenteric lymph nodes and GALT to the intestinal Foxp3+ regulatory T-cell compartment. Cellular and molecular gastroenterology and hepatology, 2(3), 274-280.
+Weiss2012: Weiss, J. M., Bilate, A. M., Gobert, M., Ding, Y., Curotto de Lafaille, M. A., Parkhurst, C. N., ... & Lafaille, J. J. (2012). Neuropilin 1 is expressed on thymus-derived natural regulatory T cells, but not mucosa-generated induced Foxp3+ T reg cells. Journal of Experimental Medicine, 209(10), 1723-1742.
+Hayat2002: Hayat, M., Cairns, A., Dixon, M. F., & O'Mahony, S. (2002). Quantitation of intraepithelial lymphocytes in human duodenum: what is normal?. Journal of clinical pathology, 55(5), 393-394.
+McCarthy2020: McCarthy, N., Manieri, E., Storm, E. E., Saadatpour, A., Luoma, A. M., Kapoor, V. N., ... & Shivdasani, R. A. (2020). Distinct mesenchymal cell populations generate the essential intestinal BMP signaling gradient. Cell stem cell, 26(3), 391-402.
+Sumigray2019: Sumigray, K. D., Terwilliger, M., & Lechler, T. (2018). Morphogenesis and compartmentalization of the intestinal crypt. Developmental cell, 45(2), 183-197. 
+Bilota2021: Bilotta, A. J., Ma, C., Yang, W., Yu, Y., Yu, Y., Zhao, X., ... & Cong, Y. (2021). Propionate enhances cell speed and persistence to promote intestinal epithelial turnover and repair. Cellular and Molecular Gastroenterology and Hepatology, 11(4), 1023-1044.
+Baumgart1998: Baumgart, M., Moos, V., Schuhbauer, D., & Müller, B. (1998). Differential expression of major histocompatibility complex class II genes on murine macrophages associated with T cell cytokine profile and protective/suppressive effects. Proceedings of the National Academy of Sciences, 95(12), 6936-6940.
+Shin2006: Shin, J. S., Ebersold, M., Pypaert, M., Delamarre, L., Hartley, A., & Mellman, I. (2006). Surface expression of MHC class II in dendritic cells is controlled by regulated ubiquitination. Nature, 444(7115), 115-118.
+Chaundry2011: Chaudhry, A., Samstein, R. M., Treuting, P., Liang, Y., Pils, M. C., Heinrich, J. M., ... & Rudensky, A. Y. (2011). Interleukin-10 signaling in regulatory T cells is required for suppression of Th17 cell-mediated inflammation. Immunity, 34(4), 566-578.
+Kuribayashi2018: Kuribayashi, T. (2018). Elimination half-lives of interleukin-6 and cytokine-induced neutrophil chemoattractant-1 synthesized in response to inflammatory stimulation in rats. Laboratory animal research, 34, 80-83.
+Donohue1983: Donohue, J. H., & Rosenberg, S. A. (1983). The fate of interleukin-2 after in vivo administration. Journal of immunology (Baltimore, Md.: 1950), 130(5), 2203-2208.
+Bowers2017: Bowers, J. S., Nelson, M. H., Majchrzak, K., Bailey, S. R., Rohrer, B., Kaiser, A. D., ... & Paulos, C. M. (2017). Th17 cells are refractory to senescence and retain robust antitumor activity after long-term ex vivo expansion. JCI insight, 2(5).
+Sabine2020: Sabine, A., Davis, M. J., Bovay, E., & Petrova, T. V. (2018). Characterization of mouse mesenteric lymphatic valve structure and function. Lymphangiogenesis: Methods and Protocols, 97-129.
+Brown1978: Nagura, H., Nakane, P. K., & Brown, W. R. (1978). Breast milk IgA binds to jejunal epithelium in suckling rats. The Journal of Immunology, 120(4), 1333-1339.
+
+
+
+
+
+
+
+
+
+
+
